@@ -1,3 +1,3 @@
-n=int(input())
-k=(n*(n+1))/2
-print(k)
+p=int(input())
+j=(p*(p+1))/2
+print(j)
