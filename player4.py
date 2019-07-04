@@ -1,0 +1,5 @@
+k=input()
+stl=list(k)
+stl.append('.')
+k="".join(stl)
+print(k)
