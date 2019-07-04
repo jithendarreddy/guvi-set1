@@ -1,7 +1,7 @@
-n=int(input())
-def factorial(n):
-    if n==0:
+z=int(input())
+def factorial(z):
+    if z==0:
         return 1
     else:
-        return n*factorial(n-1)
-print(factorial(n))
+        return z*factorial(z-1)
+print(factorial(z))
