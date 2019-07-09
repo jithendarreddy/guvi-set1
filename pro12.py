@@ -1,4 +1,4 @@
-n,k=map(int,input().split())
-r=list(map(int,input().split()))
-r.sort(reverse=True)
-print(r[k-1])
+p,j=map(int,input().split())
+l=list(map(int,input().split()))
+l.sort(reverse=True)
+print(l[j-1])
