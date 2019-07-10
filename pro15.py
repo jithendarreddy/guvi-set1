@@ -6,6 +6,6 @@ for i in range(0,len(p)):
     new=p[i:]
     f=max(new)
     if(p[i]==f):
-        nl.apend(p[i])
+        nl.append(p[i])
 print(*nl)
 print(m)
