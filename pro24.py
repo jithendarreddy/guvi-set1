@@ -1,11 +1,11 @@
 a,b=map(int,input().split())
 k=list(map(int,input().split()))
-a=0
-for i in range(0,n):
-    for j in range(1,n):
+o=0
+for i in range(0,a):
+    for j in range(1,a):
         if k[i]+k[j]==b and i!=j:
-            a=1
+            o=1
             break
-print("YES" if a else "NO")S
+print("YES" if o else "NO")
             
         
