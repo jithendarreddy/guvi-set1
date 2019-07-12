@@ -1,4 +1,7 @@
 i=input()
 l=list(map(int,input().split()))
+l = [bin(x) for x in l]
 l.sort(reverse=True)
-print(*l,sep="\n")
+l = [int(x,2) for x in l]
+for x in l:
+  print(*l,sep="\n")
