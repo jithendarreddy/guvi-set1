@@ -4,7 +4,7 @@ s=0
 t=0
 for i in range(p):
 	if i%2==0:
-		s=t+q[i]
+		s=s+q[i]
 	else:
 		t+=q[i]
 print(max(s,t))
