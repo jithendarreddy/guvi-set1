@@ -1,9 +1,9 @@
 p=int(input())
 k=pow(2,p)
-l=[]
-for i in range(k):
+w=[]
+for i in range(k):  
     m=bin(i).replace("0b","")
-    l.append(m.zfill(p))
-    l.sort(key=(lambda x:x.count('l')))
-for j in l:
-    print(j)
+    w.append(m.zfill(p))
+    w.sort(key=(lambda x:x.count('1')))
+for i in w:
+    print(i)
