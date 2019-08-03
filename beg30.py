@@ -5,5 +5,5 @@ for i in range(len(l1)):
     l3.append(l1[i])
     for j in range(len(l2)):
         l3.append(l2[j])
-print(l3[0]-l3[1],l3[2]-l3[3])
+print(abs(l3[0]-l3[1]),abs(l3[2]-l3[3]))
 
