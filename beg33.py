@@ -1,2 +1,2 @@
 k=str(input())
-print(len(" "))
+print(k.count(" "))
