@@ -1,2 +1,2 @@
-k=str(input())
-print(k.count(" "))
+p=str(input())
+print(p.count(" "))
