@@ -6,6 +6,6 @@ while count<k:
     su=n+n1
     n=n1
     n1=su
-    print(su) 
+    print(su,end=" ") 
     count+=1
   
